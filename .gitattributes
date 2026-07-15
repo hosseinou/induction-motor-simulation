@@ -1,0 +1,5 @@
+# Force GitHub to see all .m files as MATLAB
+*.m linguist-language=MATLAB
+
+# Tell GitHub to count Simulink models toward the MATLAB statistics
+*.slx linguist-language=MATLAB
